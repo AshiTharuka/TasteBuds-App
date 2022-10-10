@@ -1,0 +1,41 @@
+.navbar{
+  height: 50px;
+  background-color: #f3e1d3;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+ 
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: rgb(5, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr  auto auto;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #030001;
+  background-color: rgb(202, 198, 198);
+  border-radius: 3px;
+  
+}
+.navItems{
+ gap: 20px;
+
+  
+}
