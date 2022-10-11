@@ -16,7 +16,7 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const FeaturedProperties = () => {
   
-  const { data, loading, error } = useFetch("/restaurants?featured=true&limit=4");
+  const { data, loading, error } = useFetch("/restaurants");
 
   return (
     <div className="fp">

@@ -129,14 +129,13 @@ const Restaurant = () => {
                 <p className="restDesc">{data.desc}</p>
               </div>
               {/*reserve now*/}<div className="restDetailsPrice">
-                <h1>Perfect for a {/*{days}*/}-night stay!</h1>
+                <h1>Perfect for a {/*{days}*/}-Best Meal</h1>
                 <span>
-                  Located in the real heart of Krakow, this property has an
-                  excellent location score of 9.8!
+                  Located Near you
                 </span>
                 <h2>
-                  <b>${{/*{days}*/} * data.cheapestPrice * options.room}</b> ({/*{days}*/}{" "}
-                  nights)
+                  <b>{}</b> ({/*{days}*/}{" "}
+                  Best meals for you)
                 </h2>
                 <button onClick={handleClick}>View & Order Now!</button>
               </div>
