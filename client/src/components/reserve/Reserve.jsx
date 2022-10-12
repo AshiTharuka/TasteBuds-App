@@ -96,6 +96,7 @@ const Reserve = ({ setOpen, restaurantId, foodId }) => {
  
 
   useEffect(() => {
+    console.log(data)
     getAllProducts(); //runs once
   }, []);
 

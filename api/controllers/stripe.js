@@ -13,7 +13,7 @@ export const payment = async (req, res, next) => {
     {
       source: req.body.tokenId,
       amount: req.body.amount,
-      currency: "LKR",
+      currency: "INR",
       mode: "payment",
       cancel_url: `http://localhost:3000/cart`,
       success_url: `http://localhost:3000/success`,

@@ -86,7 +86,9 @@ export const countByType = async (req, res, next) => {
 
 export const getRestaurantFoods = async (req, res, next) => {
   try {
+    
     const restaurant = await Restaurant.findById(req.params.id);
+
     const list = await Promise.all(
       restaurant.foods.map((food) => {
         return Food.findById(food);

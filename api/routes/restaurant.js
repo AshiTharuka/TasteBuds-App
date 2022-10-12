@@ -23,8 +23,8 @@ router.delete("/:id", verifyAdmin, deleteRestaurant);
 //GET
 
 router.get("/find/:id", getRestaurant);
-//GET ALL
 
+//GET ALL
 router.get("/", getRestaurants);
 router.get("/countByCity", countByCity);
 router.get("/countByType", countByType);

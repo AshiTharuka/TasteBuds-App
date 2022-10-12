@@ -365,3 +365,11 @@ console.log(product.price)
   );
 };
 export default Cart;
+
+
+
+
+
+
+
+
